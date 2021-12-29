@@ -1,0 +1,16 @@
+{
+  "name": "serv.js",
+  "version": "1.0.0",
+  "description": "This example is so cool.",
+  "main": "serv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node serv.js"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "john-doe",
+  "license": "MIT"
+}
