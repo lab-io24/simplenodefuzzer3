@@ -8,7 +8,7 @@ var server = http.createServer(function (req, res) {   //create web server
     	var loc = "http:/" + path + "/"
 	var ip = "http://" + port + "/"
         // set response header
-        res.writeHead(302, { 'Location': 'https://c9c253qh2d3m6vjf5tg0cjcnfgyyyyyyn.interact.sh/' }); 
+        res.writeHead(301, { 'Location': 'https://c9c253qh2d3m6vjf5tg0cjcnfgyyyyyyn.interact.sh/' }); 
         
         // set response content    
         res.write(path);
