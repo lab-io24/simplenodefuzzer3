@@ -8,7 +8,7 @@ var server = http.createServer(function (req, res) {   //create web server
     	var loc = "view-source:file://" + path
 	var ip = "http://" + port + "/"
         // set response header
-        res.writeHead(302, { 'Location': 'chrome://version' }); 
+        res.writeHead(302, { 'Location': 'ftp://example.com' }); 
         
         // set response content    
         res.write(path);
