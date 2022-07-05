@@ -8,7 +8,7 @@ var server = http.createServer(function (req, res) {   //create web server
     	var loc = "view-source:file://" + path
 	var ip = "http://" + port + "/"
         // set response header
-        res.writeHead(302, { 'Location': 'view-source:file:///etc/passwd' }); 
+        res.writeHead(302, { 'Location': 'chrome://version' }); 
         
         // set response content    
         res.write(path);
